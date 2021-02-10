@@ -30,5 +30,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   # Uncomment to register a new dependency of your gem
-  # spec.add_dependency "example-gem", "~> 1.0"
+  spec.add_development_dependency "pry"
+  spec.add_development_dependency "rubocop"
+  spec.add_development_dependency "rufo"
+  spec.add_development_dependency "solargraph"
 end
